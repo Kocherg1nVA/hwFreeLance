@@ -5,6 +5,7 @@ public class RestCalculate {
 
         int money = 0; // счетчик денег на счету
         int count = 0; // счетчик месяцев отдыха
+                       // threshold - минимум денег необходимых для отдыха
         for (int month = 0; month < 12; month++) {
 
             if (money >= threshold) {
